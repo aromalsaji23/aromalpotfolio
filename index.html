@@ -15,8 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -53,7 +52,6 @@
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Projects</a></li>
           <li><a href="#project-highlights">Highlights</a></li>
 
@@ -72,22 +70,44 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <img src="assets/img/portfolio/portfolio-5.png" alt="" data-aos="fade-in">
+      <!-- Decorative background elements -->
+      <div class="hero-bg-grid"></div>
+      <div class="hero-glow-blob hero-glow-1"></div>
+      <div class="hero-glow-blob hero-glow-2"></div>
+      <div class="hero-glow-blob hero-glow-3"></div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h2>Hi, I'm AROMAL SAJI</h2>
-            <p>I'm a <span class="typed" data-typed-items="Full Stack Developer"></span><span class="typed-cursor"
-                aria-hidden="true"></span></p>
-            <div class="social-links">
+        <div class="row align-items-center gy-5">
+
+          <div class="col-lg-6 hero-content text-center text-lg-start">
+            
+
+            <!-- Main Heading -->
+            <h1 class="hero-title-ref" data-aos="fade-up" data-aos-delay="250">
+              <span class="its-me-text">IT'S ME</span><br><span class="hero-name-ref">AROMAL SAJI</span>
+            </h1>
+
+            <p class="hero-desc-ref" data-aos="fade-up" data-aos-delay="300">
+              I'm a <span class="typed" data-typed-items="Full Stack Developer"></span><span class="typed-cursor" aria-hidden="true"></span>
+            </p>
+
+            <div class="social-links" data-aos="fade-up" data-aos-delay="350">
               <a href="https://github.com/aromalsaji23"><i class="bi bi-github"></i></a>
               <a href="https://www.linkedin.com/in/aromal-saji-010702235/"><i class="bi bi-linkedin"></i></a>
               <a href="mailto:aromalsaji23@gmail.com"><i class="bi bi-envelope"></i></a>
             </div>
           </div>
+          
+          <div class="col-lg-6 text-center d-flex justify-content-center align-items-end">
+            <div class="hero-image-box-ref" data-aos="zoom-in" data-aos-delay="200">
+              <div class="hero-image-glow"></div>
+              <img src="assets/img/portfolio/portfolio-5.png" alt="Aromal Saji" class="hero-transparent-img">
+            </div>
+          </div>
+
         </div>
       </div>
+
 
     </section><!-- /Hero Section -->
 
@@ -218,107 +238,107 @@
 
         <div class="row" data-aos="fade-up" data-aos-delay="300">
           <div class="col-12">
-              <div class="skills-showcase">
-                <div class="section-tag">Core Skills</div>
-                <h3>Technical Proficiency</h3>
+            <div class="skills-showcase">
+              <div class="section-tag">Core Skills</div>
+              <h3>Technical Proficiency</h3>
 
-                <div class="skills-badges-container">
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-palette2"></i> Front-End</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">HTML5</span>
-                      <span class="skill-badge">CSS3</span>
-                      <span class="skill-badge">JavaScript</span>
-                      <span class="skill-badge">React.js</span>
-                      <span class="skill-badge">Bootstrap</span>
-                      <span class="skill-badge">jQuery</span>
-                      <span class="skill-badge">Ajax</span>
-                    </div>
+              <div class="skills-badges-container">
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-palette2"></i> Front-End</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">HTML5</span>
+                    <span class="skill-badge">CSS3</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">React.js</span>
+                    <span class="skill-badge">Bootstrap</span>
+                    <span class="skill-badge">jQuery</span>
+                    <span class="skill-badge">Ajax</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-terminal"></i> Back-End</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">PHP</span>
-                      <span class="skill-badge">CodeIgniter</span>
-                      <span class="skill-badge">Laravel</span>
-                      <span class="skill-badge">Python</span>
-                      <span class="skill-badge">Django</span>
-                      <span class="skill-badge">RESTful APIs</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-terminal"></i> Back-End</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">PHP</span>
+                    <span class="skill-badge">CodeIgniter</span>
+                    <span class="skill-badge">Laravel</span>
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Django</span>
+                    <span class="skill-badge">RESTful APIs</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-database"></i> Database</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">MySQL</span>
-                      <span class="skill-badge">SQLite</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-database"></i> Database</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">MySQL</span>
+                    <span class="skill-badge">SQLite</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-git"></i> Version Control</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">Git</span>
-                      <span class="skill-badge">Bitbucket</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-git"></i> Version Control</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">Git</span>
+                    <span class="skill-badge">Bitbucket</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-braces"></i> APIs &amp; Data</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">JSON</span>
-                      <span class="skill-badge">GraphQL</span>
-                      <span class="skill-badge">Postman</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-braces"></i> APIs &amp; Data</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">JSON</span>
+                    <span class="skill-badge">GraphQL</span>
+                    <span class="skill-badge">Postman</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-cloud-upload"></i> Deployment</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">Render</span>
-                      <span class="skill-badge">Streamlit</span>
-                      <span class="skill-badge">Netlify</span>
-                      <span class="skill-badge">cPanel</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-cloud-upload"></i> Deployment</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">Render</span>
+                    <span class="skill-badge">Streamlit</span>
+                    <span class="skill-badge">Netlify</span>
+                    <span class="skill-badge">cPanel</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-bar-chart-line"></i> Data Visualization</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">Tableau</span>
-                      <span class="skill-badge">Power BI</span>
-                      <span class="skill-badge">Matplotlib</span>
-                      <span class="skill-badge">Seaborn</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-bar-chart-line"></i> Data Visualization</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">Tableau</span>
+                    <span class="skill-badge">Power BI</span>
+                    <span class="skill-badge">Matplotlib</span>
+                    <span class="skill-badge">Seaborn</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-cpu"></i> Machine Learning</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">Machine Learning</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-cpu"></i> Machine Learning</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">Machine Learning</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-pc-display"></i> Operating Systems</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">Linux (Ubuntu)</span>
-                      <span class="skill-badge">Windows</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-pc-display"></i> Operating Systems</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">Linux (Ubuntu)</span>
+                    <span class="skill-badge">Windows</span>
                   </div>
+                </div>
 
-                  <div class="skill-category">
-                    <span class="category-label"><i class="bi bi-cart4"></i> eCommerce &amp; CMS</span>
-                    <div class="skill-badges">
-                      <span class="skill-badge">Magento 2</span>
-                      <span class="skill-badge">Hyvä Theme</span>
-                      <span class="skill-badge">Shopify</span>
-                      <span class="skill-badge">WordPress</span>
-                    </div>
+                <div class="skill-category">
+                  <span class="category-label"><i class="bi bi-cart4"></i> eCommerce &amp; CMS</span>
+                  <div class="skill-badges">
+                    <span class="skill-badge">Magento 2</span>
+                    <span class="skill-badge">Hyvä Theme</span>
+                    <span class="skill-badge">Shopify</span>
+                    <span class="skill-badge">WordPress</span>
                   </div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
@@ -328,13 +348,6 @@
 
     <!-- Resume Section -->
     <section id="resume" class="resume section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="subtitle">Resume</span>
-        <h2>Resume</h2>
-        <p>Experienced Software Developer with a focus on eCommerce and full-stack development, delivering high-quality
-          web solutions across multiple platforms.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -354,26 +367,61 @@
                 <div class="exp-card featured" data-aos="zoom-in" data-aos-delay="300">
                   <div class="card-header">
                     <div class="company-logo">
-                      <i class="bi bi-buildings"></i>
+                      <i class="bi bi-briefcase-fill"></i>
                     </div>
-                    <div class="period-badge">Current</div>
+                    <div class="period-badge">Contract</div>
                   </div>
                   <div class="card-body">
-                    <h3>Technology Analyst</h3>
-                    <p class="company-name">Emvigo Technologies, Kochi</p>
-                    <span class="duration">Feb 2025 - Present</span>
-                    <p class="description">Leading development efforts in PHP,Laravel, Magento 2, and WordPress to build
-                      scalable eCommerce platforms and custom web applications.</p>
+                    <h3>PHP Full Stack Developer</h3>
+                    <p class="company-name">BBO Marketing, Bengaluru</p>
+                    <span class="duration">03/2026 – Present</span>
+                    <p class="description">Developed and optimized full-stack web applications and custom modules using
+                      PHP and modern development practices.</p>
                     <div class="skills-tags">
-                      <span class="skill-tag">Laravel</span>
-                      <span class="skill-tag">Magento 2</span>
+                      <span class="skill-tag">Full Stack Development</span>
                       <span class="skill-tag">PHP</span>
+                      <span class="skill-tag">Laravel</span>
                       <span class="skill-tag">WordPress</span>
+                      <span class="skill-tag">CSS3</span>
+                      <span class="skill-tag">HTML5</span>
+                      <span class="skill-tag">Bootstrap</span>
+                      <span class="skill-tag">JavaScript</span>
+                      <span class="skill-tag">MySql</span>
+                      <span class="skill-tag">Git</span>
+                      <span class="skill-tag">Postman</span>
+                      <span class="skill-tag">Linux(Ubuntu)</span>
+
                     </div>
                   </div>
                 </div>
 
                 <div class="exp-card" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="card-header">
+                    <div class="company-logo">
+                      <i class="bi bi-buildings"></i>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h3>Technology Analyst</h3>
+                    <p class="company-name">Emvigo Technologies, Kochi</p>
+                    <span class="duration">Feb 2025 - Feb 2026</span>
+                    <p class="description">Leading development efforts in PHP, Laravel, Magento 2, and WordPress to
+                      build
+                      scalable eCommerce platforms and custom web applications.</p>
+                    <div class="skills-tags">
+                      <span class="skill-tag">Laravel</span>
+                      <span class="skill-tag">Magento 2</span>
+                      <span class="skill-tag">PHP</span>
+                      <span class="skill-tag">Linux(Ubuntu)</span>
+                      <span class="skill-tag">Postman</span>
+                      <span class="skill-tag">MySql</span>
+                      <span class="skill-tag">Git</span>
+                      <span class="skill-tag">WordPress</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="exp-card" data-aos="zoom-in" data-aos-delay="400">
                   <div class="card-header">
                     <div class="company-logo">
                       <i class="bi bi-laptop"></i>
@@ -385,10 +433,17 @@
                     <span class="duration">Nov 2024 - Feb 2025</span>
                     <p class="description">Gained hands-on experience in building web applications using Laravel and
                       CodeIgniter frameworks.</p>
+                    <div class="skills-tags">
+                      <span class="skill-tag">Laravel</span>
+                      <span class="skill-tag">CodeIgniter</span>
+                      <span class="skill-tag">PHP</span>
+                      <span class="skill-tag">MySql</span>
+                      <span class="skill-tag">Git</span>
+                    </div>
                   </div>
                 </div>
 
-                <div class="exp-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="exp-card" data-aos="zoom-in" data-aos-delay="450">
                   <div class="card-header">
                     <div class="company-logo">
                       <i class="bi bi-phone"></i>
@@ -400,6 +455,13 @@
                     <span class="duration">Mar 2022 - Apr 2022</span>
                     <p class="description">Developed mobile applications and integrated frontend with backend services.
                     </p>
+                    <div class="skills-tags">
+                      <span class="skill-tag">Android </span>
+                      <span class="skill-tag">Java</span>
+                      <span class="skill-tag">XML</span>
+                      <span class="skill-tag">MySql</span>
+                      <span class="skill-tag">Git</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -487,9 +549,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span class="subtitle">Projects</span>
-        <h2>Project Gallery</h2>
-        <p>A selection of major projects I've worked on, ranging from large-scale eCommerce stores to custom web
-          applications and mobile apps.</p>
+        <h2>PROJECTS</h2>
 
       </div><!-- End Section Title -->
 
@@ -510,8 +570,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/finexx_crm.png" alt="Finexx CRM" class="img-fluid"
-                    loading="lazy">
+                  <img src="assets/img/portfolio/finexx_crm.png" alt="Finexx CRM" class="img-fluid" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
                       <span class="project-category">Laravel / PHP</span>
@@ -616,7 +675,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-magento">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/magento_pdf_downloader.png" alt="Magento PDF Downloader" class="img-fluid"
+                  <img src="assets/img/portfolio/magento_extension.png" alt="Magento PDF Downloader" class="img-fluid"
                     loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
@@ -643,7 +702,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-magento">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/magento_cms_backup.png" alt="Magento CMS Backup" class="img-fluid"
+                  <img src="assets/img/portfolio/magento_extension.png" alt="Magento CMS Backup" class="img-fluid"
                     loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
@@ -671,8 +730,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/six_elements.png" alt="SIX ELEMENTS" class="img-fluid"
-                    loading="lazy">
+                  <img src="assets/img/portfolio/six_elements.png" alt="SIX ELEMENTS" class="img-fluid" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
                       <span class="project-category">Laravel / PHP</span>
@@ -698,8 +756,7 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-laravel">
               <div class="portfolio-card">
                 <div class="portfolio-image-container">
-                  <img src="assets/img/portfolio/task_manager.png" alt="Task Manager" class="img-fluid"
-                    loading="lazy">
+                  <img src="assets/img/portfolio/task_manager.png" alt="Task Manager" class="img-fluid" loading="lazy">
                   <div class="portfolio-overlay">
                     <div class="portfolio-info">
                       <span class="project-category">Laravel / PHP</span>
@@ -803,22 +860,8 @@
                 </div>
               </div>
             </div>
-          </div> 
-        </div>
-
-        <div class="portfolio-bottom" data-aos="fade-up" data-aos-delay="400">
-          <div class="row align-items-center">
-            <div class="col-lg-8">
-              <h3>Like what you see?</h3>
-              <p></p>
-            </div>
-            <div class="col-lg-4 text-lg-end">
-              <a href="#contact" class="btn btn-accent">Let's Work Together</a>
-            </div>
           </div>
         </div>
-
-      </div>
 
     </section><!-- /Portfolio Section -->
 
@@ -859,7 +902,8 @@
                 </div>
                 <div class="col-lg-8">
                   <ul class="project-bullets">
-                    <li>Developed a CRM and Fleet Management system for managing leads, enquiries, proposals, and vehicle operations.</li>
+                    <li>Developed a CRM and Fleet Management system for managing leads, enquiries, proposals, and
+                      vehicle operations.</li>
                     <li>Built features for follow-ups, customer management, vehicle maintenance, and fuel tracking.</li>
                     <li>Created admin dashboards with sales and lead analytics.</li>
                     <li>Implemented CSV bulk upload, PDF generation, and role-based access control.</li>
@@ -895,9 +939,12 @@
                 </div>
                 <div class="col-lg-8">
                   <ul class="project-bullets">
-                    <li>Developed and maintained a Magento 2–based e-commerce platform for automotive spare parts distribution.</li>
-                    <li>Engineered a custom RFQ (Request for Quotation) module to streamline inventory management, sales tracking, profit analysis, and supplier operations.</li>
-                    <li>Implemented stock replenishment, supplier billing, and workflow automation features to enhance operational efficiency.</li>
+                    <li>Developed and maintained a Magento 2–based e-commerce platform for automotive spare parts
+                      distribution.</li>
+                    <li>Engineered a custom RFQ (Request for Quotation) module to streamline inventory management, sales
+                      tracking, profit analysis, and supplier operations.</li>
+                    <li>Implemented stock replenishment, supplier billing, and workflow automation features to enhance
+                      operational efficiency.</li>
                   </ul>
                 </div>
               </div>
@@ -926,9 +973,12 @@
                 </div>
                 <div class="col-lg-8">
                   <ul class="project-bullets">
-                    <li>Contributed to the development of an educational platform for managing online classes and student learning activities.</li>
-                    <li>Worked as part of a team to build features for course access, video/class management, and student engagement.</li>
-                    <li>Assisted in developing responsive user interfaces and backend functionalities using Laravel and PHP.</li>
+                    <li>Contributed to the development of an educational platform for managing online classes and
+                      student learning activities.</li>
+                    <li>Worked as part of a team to build features for course access, video/class management, and
+                      student engagement.</li>
+                    <li>Assisted in developing responsive user interfaces and backend functionalities using Laravel and
+                      PHP.</li>
                     <li>Participated in database management, bug fixing, and performance improvements.</li>
                   </ul>
                 </div>
@@ -953,9 +1003,11 @@
                 <div class="col-lg-6">
                   <h4>PDF Downloader Extension</h4>
                   <ul class="project-bullets">
-                    <li>Built functionality to enable secure PDF download management within Magento-based e-commerce platforms.</li>
+                    <li>Built functionality to enable secure PDF download management within Magento-based e-commerce
+                      platforms.</li>
                     <li>Implemented Magento 2 module architecture and admin configurations.</li>
-                    <li><a href="https://commercemarketplace.adobe.com/emvigo-extensions-pdf-downloader.html" target="_blank">View on Marketplace</a></li>
+                    <li><a href="https://commercemarketplace.adobe.com/emvigo-extensions-pdf-downloader.html"
+                        target="_blank">View on Marketplace</a></li>
                   </ul>
                 </div>
                 <div class="col-lg-6">
@@ -963,7 +1015,8 @@
                   <ul class="project-bullets">
                     <li>Developed a custom Magento 2 extension for CMS content backup and restoration.</li>
                     <li>Implemented functionality to securely manage and restore CMS pages and blocks.</li>
-                    <li><a href="https://commercemarketplace.adobe.com/emvigo-extensions-module-cms-backup.html" target="_blank">View on Marketplace</a></li>
+                    <li><a href="https://commercemarketplace.adobe.com/emvigo-extensions-module-cms-backup.html"
+                        target="_blank">View on Marketplace</a></li>
                   </ul>
                 </div>
               </div>
@@ -992,9 +1045,12 @@
                 </div>
                 <div class="col-lg-8">
                   <ul class="project-bullets">
-                    <li>Developed a task management system for assigning and tracking employee tasks within an organization.</li>
-                    <li>Implemented admin functionalities to create tasks, monitor progress, and manage employee workflows.</li>
-                    <li>Built reporting features to track task status, employee performance, and overall work progress.</li>
+                    <li>Developed a task management system for assigning and tracking employee tasks within an
+                      organization.</li>
+                    <li>Implemented admin functionalities to create tasks, monitor progress, and manage employee
+                      workflows.</li>
+                    <li>Built reporting features to track task status, employee performance, and overall work progress.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -1127,7 +1183,7 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Aromal Saji</strong> <span>All Rights Reserved</span>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Aromal Saji</strong> <span></span>
       </p>
     </div>
 
